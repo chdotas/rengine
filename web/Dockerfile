@@ -14,7 +14,7 @@ RUN ARCH=$(dpkg --print-architecture) \
 LABEL \
     name="reNgine" \
     author="Yogesh Ojha <yogesh.ojha11@gmail.com>" \
-    description="reNgine is a automated pipeline of recon process, useful for information gathering during web application penetration testing."
+    description="VanguardX is a automated pipeline of recon process, useful for information gathering during web application penetration testing."
 
 # Environment Variables
 ENV DEBIAN_FRONTEND="noninteractive" \

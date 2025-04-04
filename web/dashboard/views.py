@@ -268,7 +268,7 @@ def on_user_logged_out(sender, request, **kwargs):
         request,
         messages.INFO,
         'You have been successfully logged out. Thank you ' +
-        'for using reNgine.')
+        'for using VanguardX.')
 
 
 @receiver(user_logged_in)
@@ -337,7 +337,8 @@ def onboarding(request):
         key_chaos = request.POST.get('key_chaos')
         key_hackerone = request.POST.get('key_hackerone')
         username_hackerone = request.POST.get('username_hackerone')
-        bug_bounty_mode = request.POST.get('bug_bounty_mode') == 'on'
+        # bug_bounty_mode = request.POST.get('bug_bounty_mode') == 'on'
+        bug_bounty_mode = False
 
         insert_date = timezone.now()
 

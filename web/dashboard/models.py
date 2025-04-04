@@ -91,7 +91,8 @@ class InAppNotification(models.Model):
 
 class UserPreferences(models.Model):
 	user = models.OneToOneField(User, on_delete=models.CASCADE)
-	bug_bounty_mode = models.BooleanField(default=True)
-	
+	# bug_bounty_mode = models.BooleanField(default=True)
+	bug_bounty_mode = models.BooleanField(default=False)
+
 	def __str__(self):
 		return f"{self.user.username}'s preferences"

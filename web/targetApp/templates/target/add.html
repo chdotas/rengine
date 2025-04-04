@@ -58,7 +58,7 @@ Add or Import Targets
             <div class="row">
               <div class="col-12">
                 <div class="alert alert-primary border-0 mb-4" role="alert">
-                  Please enter your Target IP address, reNgine will look for the <b>A</b> records and resolve them to the domains.
+                  Please enter your Target IP address, VanguardX will look for the <b>A</b> records and resolve them to the domains.
                 </div>
                 <label for="ip_address" class="text-dark">IP Address or CIDR</br><span class="text-muted">Example: 192.168.1.1 or 192.168.1.1/24, both are supported</span></label>
                 <input type="text" name="ip_address" class="form-control form-control-lg" id="ip_address" placeholder="X.X.X.X">
@@ -80,7 +80,7 @@ Add or Import Targets
                 <label for="targetDescription" class="form-label">Target Description (Optional)</label>
                 <input type="text" class="form-control form-control-lg" id="targetDescription" placeholder="Interesting Target" name="targetDescription">
               </div>
-              {% if user_preferences.bug_bounty_mode %}
+              <!-- {% if user_preferences.bug_bounty_mode %}
               <div class="col-12 mt-3">
                 <label for="domainDescription" class="form-label">HackerOne Target Team Handle
                   <br>
@@ -89,7 +89,7 @@ Add or Import Targets
                 <input type="text" class="form-control form-control-lg" id="targetH1TeamHandle" placeholder="team_handle" name="targetH1TeamHandle">
                 <button class="btn btn-primary submit-fn mt-2 float-end" disabled type="submit" name="add-ip-target" id="add-ip-target" value="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg> <span id="add_ip_target_btn">Add Target</span></button>
               </div>
-              {% endif %}
+              {% endif %} -->
             </form>
           </div>
         </div>

@@ -3,6 +3,10 @@ body[data-layout-mode=horizontal] .container-fluid {
   max-width: 100% !important;
 }
 
+.content-page {
+  background: linear-gradient(317deg, rgb(10 2 2) 0%, rgb(56 4 4) 45%, rgb(138 11 22) 100%);
+}
+
 #topnav-menu-content .navbar-nav .nav-link {
   font-size: .90rem !important;
   padding: calc(33px / 2) 0.7rem !important;
@@ -377,6 +381,9 @@ tr.group:hover {
     background-color: #ddd !important;
 }
 
+.navbar-custom {
+  background-color: #070707;
+}
 
 .navbar-custom .app-search{
   max-width: 300px !important;

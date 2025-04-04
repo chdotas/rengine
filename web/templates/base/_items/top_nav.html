@@ -111,12 +111,9 @@
               <a href="{% url 'report_settings' current_project.slug %}" class="dropdown-item">Report Settings</a>
               {% endif %}
               {% if user|can:'modify_system_configurations' %}
-              <a href="{% url 'rengine_settings' current_project.slug %}" class="dropdown-item">reNgine Settings</a>
+              <a href="{% url 'vanguardx_settings' current_project.slug %}" class="dropdown-item">VanguardX Settings</a>
               {% endif %}
               {% if user|can:'modify_scan_configurations' %}
-                {% if user_preferences.bug_bounty_mode %}
-                  <a href="{% url 'hackerone_settings' current_project.slug %}" class="dropdown-item">Hackerone Settings</a>
-                {% endif %}
               <a href="{% url 'notification_settings' current_project.slug %}" class="dropdown-item">Notification Settings</a>
               {% endif %}
             </div>

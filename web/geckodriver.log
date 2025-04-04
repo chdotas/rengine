@@ -1,0 +1,31 @@
+1737921778296	geckodriver	INFO	Listening on 127.0.0.1:41005
+1737921778799	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "55503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewQUzvx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing
+1737921779412	Marionette	INFO	Marionette enabled
+1737921779680	Marionette	INFO	Listening on port 37249
+WebDriver BiDi listening on ws://127.0.0.1:55503
+Read port: 37249
+1737921780168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1737921798856	Marionette	INFO	Stopped listening on port 37249
+!!! error running onStopped callback: TypeError: callback is not a function
+1737921799324	geckodriver	INFO	Listening on 127.0.0.1:45515
+1737921799828	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "53355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWLP2iR"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: libEGL missing
+1737921800004	Marionette	INFO	Marionette enabled
+1737921800155	Marionette	INFO	Listening on port 33117
+WebDriver BiDi listening on ws://127.0.0.1:53355
+Read port: 33117
+1737921800275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1737921804101	Marionette	INFO	Stopped listening on port 33117

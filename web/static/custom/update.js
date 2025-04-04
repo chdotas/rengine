@@ -27,7 +27,7 @@ function check_rengine_update() {
     window.open("https://github.com/yogeshojha/rengine/releases", "_blank");
   } else {
     Swal.fire({
-      title: "Checking reNgine latest version...",
+      title: "Checking VanguardX latest version...",
       allowOutsideClick: false,
     });
     swal.showLoading();
@@ -53,7 +53,7 @@ function check_rengine_update() {
           $(".rengine_update_available").hide();
           Swal.fire({
             title: "Update not available",
-            text: "You are running the latest version of reNgine!",
+            text: "You are running the latest version of VanguardX!",
             icon: "info",
           });
         }
@@ -114,7 +114,7 @@ function update_available(latest_version_number, changelog) {
       title: "Update Available!",
       html: `
           ${changelogStyle}
-          <h5>reNgine's new update ${latest_version_number} is available, please follow the update instructions.</h5>
+          <h5>VanguardX's new update ${latest_version_number} is available, please follow the update instructions.</h5>
           <div class="changelog-content" style="max-height: 500px;" data-simplebar>
             ${parsedChangelog}
           </div>
@@ -188,14 +188,14 @@ function showAfterUpdatePopup() {
 
 $(document).ready(function () {
     // show popup after update
-    showAfterUpdatePopup();
+    // showAfterUpdatePopup();
   // hide badge if update does not exists
-  if (
-    window.localStorage.getItem("update_available") &&
-    window.localStorage.getItem("update_available") === "true"
-  ) {
-    $(".rengine_update_available").show();
-  } else {
-    $(".rengine_update_available").hide();
-  }
+  //if (
+  //  window.localStorage.getItem("update_available") &&
+  //  window.localStorage.getItem("update_available") === "true"
+  //) {
+  //  $(".rengine_update_available").show();
+  //} else {
+   // $(".rengine_update_available").hide();
+  //}
 });
